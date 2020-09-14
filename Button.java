@@ -30,7 +30,6 @@ public class Button extends Actor
         if (mouseDown && Greenfoot.mouseClicked(this)) {
             setImage(button_1);
             ((Classroom)getWorld()).setPeriod(2);
-            //mouseDown = false; ??
         }
   }
 }
