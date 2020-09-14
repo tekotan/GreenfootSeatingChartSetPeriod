@@ -53,6 +53,9 @@ public class Classroom extends World
         addObject(ayushbandopadhyay, 2, 2);
         ayushbandopadhyay.sitDown();
         setPeriod(2);
+        
+        Button button = new Button();
+        addObject(button, 3, 3);
     }
     public void setPeriod(int period){
         for (Object obj : getObjects(null)){

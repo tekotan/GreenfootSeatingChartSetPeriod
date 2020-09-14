@@ -15,6 +15,8 @@ public class Button extends Actor
     private boolean mouseDown;
 
     public Button() {
+        button_1.scale(50, 50);
+        button_2.scale(50, 50);
         setImage(button_1);
         mouseDown = false;
     }
